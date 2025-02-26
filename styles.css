@@ -2,10 +2,23 @@ body {
     margin: 0px;
 }
 
+img {
+    border-radius: 10%;
+}
+
 .header {
     background-color: #1F2937;
     color: white;
     display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-menu a {
+    margin-left: 10px;
 }
 
 .header a {
@@ -18,19 +31,102 @@ body {
     color: white;
     display: flex;
     padding: 25px;
+    justify-content:space-around;
+}
+
+.hero-info-section {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
 }
 
 .section-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .section-2-cards {
     display: flex;
+    justify-content: space-around;
     width: 85%;
+}
+
+.card {
+    display: flex;
+    padding: 15px;
+    text-align: center;
 }
 
 .section-3 {
     background-color: #E5E7EB;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.section-4 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.quote-text {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-attribution p {
+    text-align: right;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+    background-color: #3882F6;
+    border-radius: 15px;
+}
+
+.cta-text {
+    color: white;
+}
+
+.cta-text p {
+    margin-top: 0px;
+}
+
+.cta-text h2 {
+    margin-bottom: 5px;
+}
+
+.cta-button {
+    align-content: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+}
+
+.footer p {
+    text-align: center;
 }
